@@ -2,13 +2,13 @@
 
 ***
 
-**Computer network is made up of **_**nodes**_** and **_**links**_
+**Computer network is made up of **_**nodes**_ **and** _**links**_
 
 * _nodes_: can be computers, swithchers, routers etc.
 
 internetwork (network) is the network of networks
 
-**Network connects a lot of computers together, and the internet connevts a lot of networks together through routers. The computers connected with the network are usually called **_**hosts.**_&#x20;
+**Network connects a lot of computers together, and the internet connevts a lot of networks together through routers. The computers connected with the network are usually called \_hosts.**\_
 
 ***
 
@@ -130,7 +130,7 @@ Dealing with complex systems:
 
 **Reference model** - This type of model provides consistency within all types of network protocols and services by describing what has to be done at a particular layer, but not prescribing how it should be accomplished. The OSI model is a widely known internetwork reference model, but is also a protocol model for the OSI protocol suite.
 
-_In a word, protocol models closly band with the  architecture of a particular protocol, explicitly discribing the function of each layer, but reference models just provide a universal architecture, without a specific accomplish approach._
+_In a word, protocol models closly band with the architecture of a particular protocol, explicitly discribing the function of each layer, but reference models just provide a universal architecture, without a specific accomplish approach._
 
 #### OSI Reference Model
 
@@ -151,7 +151,7 @@ Evey system follows OSI standard can communicate with the other systems locating
 * **application**: supporting network applications: IMAP, SMTP, HTTP
 * **transport**: process-process data transfer: TCP, UDP
 * **network**: routing of datagrams from source to destination: IP, routing protocols
-* **link**: data transfer between neighboring  network elements: Ethernet, 802.11 (WiFi), PPP
+* **link**: data transfer between neighboring network elements: Ethernet, 802.11 (WiFi), PPP
 * **physical**: bits “on the wire”
 
 #### Difference Between the Three Models
@@ -190,8 +190,8 @@ The data is transfered as a bit stream during the physical layer.
 
 <figure><img src=".gitbook/assets/image (18).png" alt="" width="350"><figcaption><p>The strategy will add the complexity</p></figcaption></figure>
 
-* Allows many different conversations to be interleaved&#x20;
-* Increases the efficiency of network communications&#x20;
+* Allows many different conversations to be interleaved
+* Increases the efficiency of network communications
 * Adds complexity
 
 ***
@@ -204,7 +204,7 @@ As application data is passed down the protocol stack on its way to be transmitt
 
 The form that a piece of data takes at any layer is called a **protocol data unit (PDU)**. During encapsulation, each succeeding layer encapsulates the PDU that it receives from the layer above in accordance with the protocol being used. At each stage of the process, a PDU has a different name to reflect its new functions.
 
-_-Data   -Segment   -Packet   -Frame   -Bits_
+_-Data (Message) -Segment -Packet -Frame -Bits_
 
 ***
 
@@ -246,4 +246,4 @@ The source and destination IP addresses will represent hosts on different networ
 
 #### 2. Role of the Data Link Layer Addresses
 
-Destination MAC address  - When the receiving device is on a different network from the sending device, the sending device uses the Ethernet MAC address of the default gateway or router.
+Destination MAC address - When the receiving device is on a different network from the sending device, the sending device uses the Ethernet MAC address of the default gateway or router.
