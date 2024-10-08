@@ -26,7 +26,7 @@ Host sending function:
 
 In circuit swithing: end-end resources allocated to, reserved for “call” between source and destination
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Circuit Switching</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (27).png" alt="" width="375"><figcaption><p>Circuit Switching</p></figcaption></figure>
 
 * In diagram, each link has four circuits.&#x20;
   * Call gets 2nd circuit in top link and 1st circuit in right link.&#x20;
@@ -43,7 +43,7 @@ _Commonly used in traditional telephone networks_
 
 ### Packet-switching: Queueing Delay, Loss
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Queue Delay</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption><p>Queue Delay</p></figcaption></figure>
 
 **Packet queuing and loss**: if arrival rate (in bitpersecond - bps) to link exceeds transmission rate (bps) of link for a period of time
 
@@ -55,7 +55,7 @@ _Commonly used in traditional telephone networks_
 * Packets queue, wait for turn&#x20;
 * Arrival rate to link (temporarily) exceeds output link capacity: packet loss
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>Packet Loss &#x26; Delay</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (29).png" alt="" width="563"><figcaption><p>Packet Loss &#x26; Delay</p></figcaption></figure>
 
 **Transmission Delay** _(sender side)_**; Propagation Delay** _(during the propagation process)_**; Processing Delay** _(receiver side)_
 
@@ -114,9 +114,9 @@ To offer wireless capability, devices on a _wireless_ network must be connected 
 
 **Switch devices** and **wireless access points** are often two separate dedicated devices within a network implementation. However, there are also devices that offer both wired and wireless connectivity.
 
-<figure><img src=".gitbook/assets/image (24) (1).png" alt=""><figcaption><p>Home Router</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (49).png" alt=""><figcaption><p>Home Router</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (25) (1).png" alt=""><figcaption><p>Connecting to the Wired <a href="overview.md#main">LAN</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption><p>Connecting to the Wired <a href="overview.md#main">LAN</a></p></figcaption></figure>
 
 ### Network Interface Card (NIC)
 
@@ -132,7 +132,7 @@ Not all physical connections are equal in terms of performance when connecting t
 
 ### The Physical Layer
 
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>OSI Model</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption><p>OSI Model</p></figcaption></figure>
 
 The _physical layer_ encodes the frames and creates the _electrical, optical, or radio wave_ signals that represent the bits in each frame.
 
@@ -146,7 +146,7 @@ The destination node physical layer retrieves these individual signals from the 
 
 There are three basic forms of network media. The physical layer produces the representation and groupings of bits for each type of media as:
 
-<figure><img src=".gitbook/assets/image (28).png" alt="" width="563"><figcaption><p>Physical Layer Media</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (53).png" alt="" width="563"><figcaption><p>Physical Layer Media</p></figcaption></figure>
 
 * **Copper cable**: The signals are patterns of electrical pulses.
 * **Fiber-optic cable**: The signals are patterns of light.
@@ -158,7 +158,7 @@ There are three basic forms of network media. The physical layer produces the re
 
 <table><thead><tr><th width="125">Bit</th><th width="137">Physical Link</th><th width="137">Guided Media</th><th>Unguided Media</th></tr></thead><tbody><tr><td>propagates between transmitter/receiver pairs</td><td>what lies between transmitter &#x26; receiver</td><td>signals propagate in solid media: copper, fiber, coax</td><td>signals propagate freely, e.g., radio</td></tr></tbody></table>
 
-<table><thead><tr><th align="center">Twisted Pair (TP)</th><th width="192" align="center">Coaxial Cable</th><th align="center">Fiber Optic Cable</th></tr></thead><tbody><tr><td align="center"></td><td align="center">Two concentric copper conductors</td><td align="center">Glass fiber carrying light pulses, each pulse a bit</td></tr><tr><td align="center"></td><td align="center">Bidirectional</td><td align="center"><p>Low error rate: </p><p>-repeaters spaced far apart </p><p>-immune to electromagnetic noise</p></td></tr><tr><td align="center"><p>Two insulated copper wires </p><p>-Category 5: 100 Mbps, 1 Gbps Ethernet </p><p>-Category 6: 10Gbps Ethernet</p></td><td align="center"><p>Broadband: </p><p>-multiple frequency channels on cable </p><p>-100’s Mbps per channel</p></td><td align="center">high-speed operation: high-speed point-to-point transmission (10’s-100’s Gbps)</td></tr><tr><td align="center"><img src=".gitbook/assets/image (33).png" alt="" data-size="original"><img src=".gitbook/assets/image (34).png" alt=""></td><td align="center"><img src=".gitbook/assets/image (31).png" alt="" data-size="original"></td><td align="center"><img src=".gitbook/assets/image (32).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th align="center">Twisted Pair (TP)</th><th width="192" align="center">Coaxial Cable</th><th align="center">Fiber Optic Cable</th></tr></thead><tbody><tr><td align="center"></td><td align="center">Two concentric copper conductors</td><td align="center">Glass fiber carrying light pulses, each pulse a bit</td></tr><tr><td align="center"></td><td align="center">Bidirectional</td><td align="center"><p>Low error rate: </p><p>-repeaters spaced far apart </p><p>-immune to electromagnetic noise</p></td></tr><tr><td align="center"><p>Two insulated copper wires </p><p>-Category 5: 100 Mbps, 1 Gbps Ethernet </p><p>-Category 6: 10Gbps Ethernet</p></td><td align="center"><p>Broadband: </p><p>-multiple frequency channels on cable </p><p>-100’s Mbps per channel</p></td><td align="center">high-speed operation: high-speed point-to-point transmission (10’s-100’s Gbps)</td></tr><tr><td align="center"><img src=".gitbook/assets/image (58).png" alt="" data-size="original"><img src=".gitbook/assets/image (59).png" alt=""></td><td align="center"><img src=".gitbook/assets/image (56).png" alt="" data-size="original"></td><td align="center"><img src=".gitbook/assets/image (57).png" alt="" data-size="original"></td></tr></tbody></table>
 
 #### Wireless Radio
 
@@ -194,7 +194,7 @@ There are three basic forms of network media. The physical layer produces the re
 
 ### Copper Media and Characteristics
 
-<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption><p>Copper Media</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption><p>Copper Media</p></figcaption></figure>
 
 Networks use copper media because it is <mark style="background-color:blue;">inexpensive, easy to install, and has low resistance to electrical current</mark>. However, copper media is limited by _distance_ and _signal interference_.
 
@@ -209,7 +209,7 @@ To counter the negative effects of crosstalk, some types of copper cables have _
 
 #### Unishielded Twisted-Pair Cable
 
-<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption><p>UTP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption><p>UTP</p></figcaption></figure>
 
 **Unshielded twisted-pair (UTP) cabling** is the most common networking media.
 
@@ -223,13 +223,13 @@ UTP cable relies solely on the cancellation effect produced by the twisted wire 
 
 #### Shielded Twisted-Pair Cable
 
-<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>STP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption><p>STP</p></figcaption></figure>
 
 **Shielded twisted-pair (STP)** provides <mark style="background-color:blue;">better noise protection than UTP cabling</mark>. However, compared to UTP cable, STP cable is _significantly more expensive and difficult to install_. STP cables[ <mark style="background-color:blue;">combine the techniques of shielding to counter EMI and RFI, and wire twisting to counter crosstalk</mark>](#user-content-fn-1)[^1].
 
 #### Coaxial Cable
 
-<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption><p>Coaxial Cable</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (63).png" alt=""><figcaption><p>Coaxial Cable</p></figcaption></figure>
 
 **Coaxial cable, or coax** for short, gets its name from the fact that there are _two conductors that share the same axis_. As shown in the figure, coaxial cable consists of:
 
@@ -250,7 +250,7 @@ _These cables are used to interconnect nodes on a LAN and infrastructure devices
 
 ### Fiber Versus Copper
 
-<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption><p>Fiaber VS Copper</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (64).png" alt=""><figcaption><p>Fiaber VS Copper</p></figcaption></figure>
 
 **Optical fiber cable** <mark style="background-color:blue;">transmits data over longer distances and at higher bandwidths than any other networking media</mark>. Unlike copper wires, fiber-optic cable can <mark style="background-color:blue;">transmit signals with less attenuation and is completely immune to EMI and RFI</mark>. Optical fiber is <mark style="background-color:blue;">commonly used to interconnect network devices</mark>.
 
@@ -262,7 +262,7 @@ There are many advantages to using fiber-optic cable compared to copper cables: 
 
 ### Bandwidth
 
-<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption><p>Bandwidth</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (66).png" alt=""><figcaption><p>Bandwidth</p></figcaption></figure>
 
 Different physical media support the transfer of bits at different rates. Data transfer is usually discussed in terms of **bandwidth** and **throughput**.
 
@@ -287,7 +287,7 @@ A combination of factors determines the practical bandwidth of a network:
 
 ### The Data Link Layer
 
-<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Data Link Layer</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (67).png" alt=""><figcaption><p>Data Link Layer</p></figcaption></figure>
 
 The data link layer of the OSI model (Layer 2) is responsible for:
 
@@ -307,7 +307,7 @@ The data link layer effectively separates the media transitions that occur as th
 
 ### Data Link Sublayers
 
-<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption><p>Data Link Sublayers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (68).png" alt=""><figcaption><p>Data Link Sublayers</p></figcaption></figure>
 
 The data link layer is divided into two sublayers:
 
@@ -318,7 +318,7 @@ The data link layer is divided into two sublayers:
 
 ### Media Access Control
 
-<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption><p>Meida Access Control</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (69).png" alt=""><figcaption><p>Meida Access Control</p></figcaption></figure>
 
 Layer 2 protocols specify the encapsulation of a packet into a frame and the techniques for getting the encapsulated packet on and off each medium.
 
@@ -343,7 +343,7 @@ At each hop along the path, a **router**:
 
 ### The Frame
 
-<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption><p>Frame</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (70).png" alt=""><figcaption><p>Frame</p></figcaption></figure>
 
 <mark style="background-color:blue;">The data link layer prepares a packet for transport across the local media by encapsulating it with a header and a trailer to create a frame.</mark> The description of a frame is a key element of each data link layer protocol. Although there are many different data link layer protocols that describe data link layer frames, each frame type has three basic parts:
 
@@ -372,7 +372,7 @@ _Not all protocols include all of these fields. The standards for a specific dat
 
 ### Layer 2 Address
 
-<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption><p>Layer 2 Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (71).png" alt=""><figcaption><p>Layer 2 Address</p></figcaption></figure>
 
 <mark style="background-color:blue;">The data link layer provides physical addressing that is used in transporting a frame across a shared local media.</mark>
 
