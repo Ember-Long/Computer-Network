@@ -1,4 +1,4 @@
-# 💪 Physical Layer & Data Link Layer
+# 🧬 Physical Layer & Data Link Layer
 
 Further Key Topics and Concepts
 
@@ -26,7 +26,7 @@ Host sending function:
 
 In circuit swithing: end-end resources allocated to, reserved for “call” between source and destination
 
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Circuit Switching</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Circuit Switching</p></figcaption></figure>
 
 * In diagram, each link has four circuits.&#x20;
   * Call gets 2nd circuit in top link and 1st circuit in right link.&#x20;
@@ -43,7 +43,7 @@ _Commonly used in traditional telephone networks_
 
 ### Packet-switching: Queueing Delay, Loss
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Queue Delay</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Queue Delay</p></figcaption></figure>
 
 **Packet queuing and loss**: if arrival rate (in bitpersecond - bps) to link exceeds transmission rate (bps) of link for a period of time
 
@@ -55,7 +55,7 @@ _Commonly used in traditional telephone networks_
 * Packets queue, wait for turn&#x20;
 * Arrival rate to link (temporarily) exceeds output link capacity: packet loss
 
-<figure><img src=".gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>Packet Loss &#x26; Delay</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>Packet Loss &#x26; Delay</p></figcaption></figure>
 
 **Transmission Delay** _(sender side)_**; Propagation Delay** _(during the propagation process)_**; Processing Delay** _(receiver side)_
 
@@ -114,9 +114,9 @@ To offer wireless capability, devices on a _wireless_ network must be connected 
 
 **Switch devices** and **wireless access points** are often two separate dedicated devices within a network implementation. However, there are also devices that offer both wired and wireless connectivity.
 
-<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>Home Router</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (24) (1).png" alt=""><figcaption><p>Home Router</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>Connecting to the Wired <a href="overview.md#main">LAN</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (25) (1).png" alt=""><figcaption><p>Connecting to the Wired <a href="overview.md#main">LAN</a></p></figcaption></figure>
 
 ### Network Interface Card (NIC)
 

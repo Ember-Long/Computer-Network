@@ -1,4 +1,4 @@
-# 😆 Overview
+# 💻 Overview
 
 ***
 
@@ -77,7 +77,7 @@ Internet: a proper noun -> must use the TCP/IP protocol
 
 ## Generic Communication Model
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Generic Communication Model</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>Generic Communication Model</p></figcaption></figure>
 
 ***
 
@@ -87,9 +87,9 @@ Internet: a proper noun -> must use the TCP/IP protocol
 
 all communication activity in Internet governed by protocols
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>A Human Protocol and a Computer Network Protocol</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>A Human Protocol and a Computer Network Protocol</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>Rule Establishment</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption><p>Rule Establishment</p></figcaption></figure>
 
 1. **Message Size**
 
@@ -107,9 +107,9 @@ all communication activity in Internet governed by protocols
 
 3. **Message Formatting and Encapsulation**
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>An Envelop Format for Humans</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption><p>An Envelop Format for Humans</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>A Frame Format for Computers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption><p>A Frame Format for Computers</p></figcaption></figure>
 
 A computer network follows specific format rules: computer messages are also encapsulated in a specific format, called a **frame**, before it is sent over the network.
 
@@ -138,15 +138,15 @@ OSI/RM (OSI): Open System Interconnection Reference Model
 
 Evey system follows OSI standard can communicate with the other systems locating anywhere over the world which also follow the standard.
 
-<figure><img src=".gitbook/assets/image (8).png" alt="" width="261"><figcaption><p>The OSI Reference Model</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1).png" alt="" width="261"><figcaption><p>The OSI Reference Model</p></figcaption></figure>
 
 #### TCP/IP Protocol Model
 
-<figure><img src=".gitbook/assets/image (9).png" alt="" width="563"><figcaption><p>The TCP/IP Protocol Model</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption><p>The TCP/IP Protocol Model</p></figcaption></figure>
 
 #### Internet Protocol Stack
 
-<figure><img src=".gitbook/assets/image (10).png" alt="" width="171"><figcaption><p>Internet Protocol Stack</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10) (1).png" alt="" width="171"><figcaption><p>Internet Protocol Stack</p></figcaption></figure>
 
 * **application**: supporting network applications: IMAP, SMTP, HTTP
 * **transport**: process-process data transfer: TCP, UDP
@@ -160,7 +160,7 @@ OSI is the typically ligal international standard. TPI/IP is the de facto intern
 
 The Internet Protocol Stack combines the advantages of both, making it a very convenient way to narrate the principles of computer networks.
 
-<figure><img src=".gitbook/assets/image (11).png" alt="" width="563"><figcaption><p>OSI &#x26; TCP/IP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption><p>OSI &#x26; TCP/IP</p></figcaption></figure>
 
 ### Protocol Suits
 
@@ -170,15 +170,15 @@ Protocol suites are implemented by hosts and networking devices in software, har
 
 #### TCP/IP Protocol Suits
 
-<figure><img src=".gitbook/assets/image (12).png" alt="" width="563"><figcaption><p>TCP/IP Protocol Suits</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12) (1).png" alt="" width="563"><figcaption><p>TCP/IP Protocol Suits</p></figcaption></figure>
 
 The TCP/IP protocol suite is an open standard, meaning these protocols are freely available to the public, and any vendor is able to implement these protocols on their hardware or in their software.
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Protocol Suites and Industry Standards</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Protocol Suites and Industry Standards</p></figcaption></figure>
 
 ### The Transfer of Data between Layers
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>The Transfer of Data between Layers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (1).png" alt=""><figcaption><p>The Transfer of Data between Layers</p></figcaption></figure>
 
 The data is transfered as a bit stream during the physical layer.
 
@@ -186,9 +186,9 @@ The data is transfered as a bit stream during the physical layer.
 
 ## Message Segmentation
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption><p>Segmentation &#x26; Multiplexing</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Segmentation &#x26; Multiplexing</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (18).png" alt="" width="350"><figcaption><p>The strategy will add the complexity</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18) (1).png" alt="" width="350"><figcaption><p>The strategy will add the complexity</p></figcaption></figure>
 
 * Allows many different conversations to be interleaved
 * Increases the efficiency of network communications
@@ -198,7 +198,7 @@ The data is transfered as a bit stream during the physical layer.
 
 ## Protocol Data Units
 
-<figure><img src=".gitbook/assets/image (19).png" alt="" width="563"><figcaption><p>The Encapsulation Process</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19) (1).png" alt="" width="563"><figcaption><p>The Encapsulation Process</p></figcaption></figure>
 
 As application data is passed down the protocol stack on its way to be transmitted across the network media, various protocol information is added at each level. This is known as the **encapsulation process**.
 
@@ -210,7 +210,7 @@ _-Data (Message) -Segment -Packet -Frame -Bits_
 
 Network Address & Data Link Address
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption><p>Contenet in Each Layer</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Contenet in Each Layer</p></figcaption></figure>
 
 **Network layer source and destination addresses** - Responsible for delivering the IP packet from the original source to the final destination, either on the same network or to a remote network.
 
@@ -222,7 +222,7 @@ Network Address & Data Link Address
 
 ### Devices on the Same Network
 
-<figure><img src=".gitbook/assets/image (21).png" alt="" width="563"><figcaption><p>Device on the Same Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21) (1).png" alt="" width="563"><figcaption><p>Device on the Same Network</p></figcaption></figure>
 
 #### 1. Role of the Network Layer Addresses
 
@@ -238,7 +238,7 @@ When the sender and receiver of the IP packet are on the same network, the data 
 
 ### Devices on a Remote Network
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption><p>Devices on a Remote Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (23) (1).png" alt=""><figcaption><p>Devices on a Remote Network</p></figcaption></figure>
 
 #### 1. Role of the Network Layer Addresses
 
