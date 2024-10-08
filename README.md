@@ -1,10 +1,10 @@
-# Thanks for checking out this project! 😁
+# 📖 Readme
 
----
+***
 
 **This is a college-level Computer Networks course note.**
 
----
+***
 
 ## Who is this note for?
 
@@ -14,7 +14,7 @@
 
 3️⃣ Enthusiasts looking to systematically learn Computer Networks from the ground up.
 
----
+***
 
 ## What makes this note special?
 
@@ -22,7 +22,7 @@
 
 2️⃣ Sections are broken down into logical blocks with clear dividers to enhance readability.
 
----
+***
 
 ## Recommendations
 
