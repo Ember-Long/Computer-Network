@@ -1,7 +1,3 @@
----
-icon: list
----
-
 # Table of contents
 
 * [💻Overview](overview.md)
