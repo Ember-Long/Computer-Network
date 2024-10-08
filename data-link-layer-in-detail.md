@@ -317,3 +317,13 @@ ARP Table
   * **Destination MAC address** – This is a <mark style="background-color:blue;">broadcast address</mark> requiring all Ethernet NICs on the LAN to accept and process the ARP request.&#x20;
   * **Source MAC address** – This is the sender’s MAC address.&#x20;
   * **Type**  – ARP messages have a type field of 0x806.
+
+## ARP Reply
+
+* The device with the target IPv4 address in the ARP request will respond with an ARP reply. The **ARP reply message** includes:&#x20;
+  * **Sender’s IPv4 address** – This is the IPv4 address of the sender, the device whose MAC address was requested.&#x20;
+  * **Sender’s MAC address** – This is the MAC address of the sender, the MAC address needed by the sender of the ARP request.&#x20;
+* The ARP reply is encapsulated in an **Ethernet frame** using the following **header** information:&#x20;
+  * **Destination MAC address** – This is the MAC address of the sender.&#x20;
+  * **Source MAC address** – This is the sender of the ARP reply’s MAC address.&#x20;
+  * **Type**  – ARP messages have a type field of 0x806.
