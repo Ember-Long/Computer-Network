@@ -2,7 +2,7 @@
 
 Further Key Topics and Concepts
 
-### Host&#x20;
+### Host
 
 **Host**: sends packets of data **-** **Packetization**
 
@@ -19,7 +19,7 @@ Host sending function:
 
 **Packet-switching**: hosts break application-layer messages into **packets**, forward packets from one router to the next across links on path from source to destination at link capacity
 
-* Resources allocation not needed&#x20;
+* Resources allocation not needed
 * Transmission path not predefined
 
 ### Alternative to Packet Switching: a Classical Circuit Switching
@@ -28,16 +28,16 @@ In circuit swithing: end-end resources allocated to, reserved for “call” bet
 
 <figure><img src=".gitbook/assets/image (27).png" alt="" width="375"><figcaption><p>Circuit Switching</p></figcaption></figure>
 
-* In diagram, each link has four circuits.&#x20;
-  * Call gets 2nd circuit in top link and 1st circuit in right link.&#x20;
-*   Dedicated resources: no sharing&#x20;
+* In diagram, each link has four circuits.
+  * Call gets 2nd circuit in top link and 1st circuit in right link.
+*   Dedicated resources: no sharing
 
-    * Circuit-like guaranteed performance&#x20;
+    * Circuit-like guaranteed performance
 
-    _<mark style="color:purple;">**However, there are no dedicated resources in pack switching**</mark>_&#x20;
-*   Circuit segment **idle** if not used by call (no sharing)&#x20;
+    _<mark style="color:purple;">**However, there are no dedicated resources in pack switching**</mark>_
+*   Circuit segment **idle** if not used by call (no sharing)
 
-    _<mark style="color:purple;">**However, in packet switching, different transmissions can share the same resources**</mark>_&#x20;
+    _<mark style="color:purple;">**However, in packet switching, different transmissions can share the same resources**</mark>_
 
 _Commonly used in traditional telephone networks_
 
@@ -47,12 +47,12 @@ _Commonly used in traditional telephone networks_
 
 **Packet queuing and loss**: if arrival rate (in bitpersecond - bps) to link exceeds transmission rate (bps) of link for a period of time
 
-* Packets will queue, waiting to be transmitted on output link&#x20;
+* Packets will queue, waiting to be transmitted on output link
 * Packets can be dropped (lost) if memory (buffer) in router fills up
 
 **Packets queue in router buffers:**
 
-* Packets queue, wait for turn&#x20;
+* Packets queue, wait for turn
 * Arrival rate to link (temporarily) exceeds output link capacity: packet loss
 
 <figure><img src=".gitbook/assets/image (29).png" alt="" width="563"><figcaption><p>Packet Loss &#x26; Delay</p></figcaption></figure>
@@ -106,7 +106,7 @@ _**Denial of Service (DoS)**: attackers make resources (server, bandwidth) unava
 
 ### Types of Connetions
 
-&#x20;A physical connection can be a wired connection using a cable or a wireless connection using radio waves.
+A physical connection can be a wired connection using a cable or a wireless connection using radio waves.
 
 The type of physical connection used is dependent upon the setup of the network.
 
@@ -158,7 +158,7 @@ There are three basic forms of network media. The physical layer produces the re
 
 <table><thead><tr><th width="125">Bit</th><th width="137">Physical Link</th><th width="137">Guided Media</th><th>Unguided Media</th></tr></thead><tbody><tr><td>propagates between transmitter/receiver pairs</td><td>what lies between transmitter &#x26; receiver</td><td>signals propagate in solid media: copper, fiber, coax</td><td>signals propagate freely, e.g., radio</td></tr></tbody></table>
 
-<table><thead><tr><th align="center">Twisted Pair (TP)</th><th width="192" align="center">Coaxial Cable</th><th align="center">Fiber Optic Cable</th></tr></thead><tbody><tr><td align="center"></td><td align="center">Two concentric copper conductors</td><td align="center">Glass fiber carrying light pulses, each pulse a bit</td></tr><tr><td align="center"></td><td align="center">Bidirectional</td><td align="center"><p>Low error rate: </p><p>-repeaters spaced far apart </p><p>-immune to electromagnetic noise</p></td></tr><tr><td align="center"><p>Two insulated copper wires </p><p>-Category 5: 100 Mbps, 1 Gbps Ethernet </p><p>-Category 6: 10Gbps Ethernet</p></td><td align="center"><p>Broadband: </p><p>-multiple frequency channels on cable </p><p>-100’s Mbps per channel</p></td><td align="center">high-speed operation: high-speed point-to-point transmission (10’s-100’s Gbps)</td></tr><tr><td align="center"><img src=".gitbook/assets/image (58).png" alt="" data-size="original"><img src=".gitbook/assets/image (59).png" alt=""></td><td align="center"><img src=".gitbook/assets/image (56).png" alt="" data-size="original"></td><td align="center"><img src=".gitbook/assets/image (57).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th align="center">Twisted Pair (TP)</th><th width="192" align="center">Coaxial Cable</th><th align="center">Fiber Optic Cable</th></tr></thead><tbody><tr><td align="center"></td><td align="center">Two concentric copper conductors</td><td align="center">Glass fiber carrying light pulses, each pulse a bit</td></tr><tr><td align="center"></td><td align="center">Bidirectional</td><td align="center"><p>Low error rate:</p><p>-repeaters spaced far apart</p><p>-immune to electromagnetic noise</p></td></tr><tr><td align="center"><p>Two insulated copper wires</p><p>-Category 5: 100 Mbps, 1 Gbps Ethernet</p><p>-Category 6: 10Gbps Ethernet</p></td><td align="center"><p>Broadband:</p><p>-multiple frequency channels on cable</p><p>-100’s Mbps per channel</p></td><td align="center">high-speed operation: high-speed point-to-point transmission (10’s-100’s Gbps)</td></tr><tr><td align="center"><img src=".gitbook/assets/image (58).png" alt="" data-size="original"><img src=".gitbook/assets/image (59).png" alt=""></td><td align="center"><img src=".gitbook/assets/image (56).png" alt="" data-size="original"></td><td align="center"><img src=".gitbook/assets/image (57).png" alt="" data-size="original"></td></tr></tbody></table>
 
 #### Wireless Radio
 
@@ -172,19 +172,15 @@ There are three basic forms of network media. The physical layer produces the re
 
 #### Radio Link Types
 
-1.  Terrestrial  microwave
+1.  Terrestrial microwave
 
     Up to 45 Mbps channels
 2.  Wireless LAN (WiFi)
 
     Up to 100’s Mbps
-
-
 3.  Wide-area (e.g., cellular)
 
     4G cellular: \~ 10’s Mbps
-
-
 4. Satellite
    1. Up to 45 Mbps per channel
    2. 270 msec end-end delay
@@ -235,7 +231,7 @@ UTP cable relies solely on the cancellation effect produced by the twisted wire 
 
 * A **copper conductor** used to transmit the electronic signals.
 * A layer of flexible **plastic insulation** surrounding a copper conductor.
-* The insulating material is surrounded in a **woven copper braid**, or <mark style="background-color:green;">**metallic foil**</mark><mark style="background-color:green;">, that acts as</mark> _<mark style="background-color:green;">the second wire in the circuit</mark>_ <mark style="background-color:green;">and as</mark> <mark style="background-color:green;"></mark>_<mark style="background-color:green;">a shield for the inner conductor</mark>_. <mark style="background-color:blue;">This second layer, or shield, also reduces the amount of outside electromagnetic interference</mark>.
+* The insulating material is surrounded in a **woven copper braid**, or <mark style="background-color:green;">**metallic foil**</mark><mark style="background-color:green;">, that acts as</mark> _<mark style="background-color:green;">the second wire in the circuit</mark>_ <mark style="background-color:green;">and as</mark> _<mark style="background-color:green;">a shield for the inner conductor</mark>_. <mark style="background-color:blue;">This second layer, or shield, also reduces the amount of outside electromagnetic interference</mark>.
 
 The entire cable is covered with a cable jacket to prevent minor physical damage.
 
@@ -382,4 +378,4 @@ Unlike Layer 3 logical addresses, which are hierarchical, physical addresses do 
 
 In the example: as the IP packet travels from host-to-router, router-to-router, and finally router-to-host, at each point along the way the IP packet is encapsulated in a new data link frame. Each data link frame contains the source data link address of the NIC card sending the frame, and the destination data link address of the NIC card receiving the frame.
 
-[^1]: why UTP cannot counter the crosstalk through twisting?
+[^1]: 
