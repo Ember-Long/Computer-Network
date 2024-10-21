@@ -45,7 +45,7 @@ Link layer has responsibility of transferring datagram from one node to physical
 
 ## Where Is the Link Layer Implemented?
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="296"><figcaption><p>Link Layer Implementation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16).png" alt="" width="296"><figcaption><p>Link Layer Implementation</p></figcaption></figure>
 
 * In each-and-every <mark style="background-color:blue;">host</mark>
 * Link layer implemented in <mark style="background-color:blue;">network interface card (NIC) or on a chip</mark>
@@ -58,7 +58,7 @@ Link layer has responsibility of transferring datagram from one node to physical
 
 ## Interfaces Communication
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Interfaces Communication</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption><p>Interfaces Communication</p></figcaption></figure>
 
 ### Sending Side
 
@@ -153,7 +153,7 @@ _Human analogy: the polite conversationalist_
 
 ## Mac Address
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>MAC Address &#x26; IP Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>MAC Address &#x26; IP Address</p></figcaption></figure>
 
 <mark style="background-color:blue;">Each interface on LAN: has unique 48-bit MAC address (and also has a locally unique 32-bit IP address )</mark>
 
@@ -191,7 +191,7 @@ Switch is a <mark style="background-color:blue;">link-layer device</mark>: takes
 
 ## Ethernet Encapsulation
 
-<figure><img src=".gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>Ethernet Encapsulation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20).png" alt="" width="563"><figcaption><p>Ethernet Encapsulation</p></figcaption></figure>
 
 ### Ethernet
 
@@ -205,13 +205,13 @@ Switch is a <mark style="background-color:blue;">link-layer device</mark>: takes
 * Define Layer 2 protocols and Layer 1 technologies&#x20;
 * Two separate sub layers of the data link layer to operate - Logical link control (LLC) and the MAC sublayers
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>The Illustration of Ehternet Encapsulation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>The Illustration of Ehternet Encapsulation</p></figcaption></figure>
 
 ***
 
 ## MAC Sublayer
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>MAC Sublayer</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption><p>MAC Sublayer</p></figcaption></figure>
 
 Primary responsibilities:
 
@@ -222,13 +222,13 @@ Primary responsibilities:
 
 ## Ethernet Evolution
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Ethernet II Frame Structure and Field Size</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption><p>Ethernet II Frame Structure and Field Size</p></figcaption></figure>
 
 ***
 
 ## Frame Processing
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>Frame Forwarding</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>Frame Forwarding</p></figcaption></figure>
 
 * <mark style="background-color:blue;">The NIC views information to see if the destination MAC address in the frame matches the device’s physical MAC address stored in RAM.</mark>&#x20;
 * If there is **no match**, the device **discards the frame**.
@@ -238,35 +238,35 @@ Primary responsibilities:
 
 ## Unicast MAC Address
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Unicast MAC Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>Unicast MAC Address</p></figcaption></figure>
 
 ## Broadcast MAC Address
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>Broadcast MAC Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>Broadcast MAC Address</p></figcaption></figure>
 
 ## Multicast MAC Address
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption><p>Multicast MAC Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption><p>Multicast MAC Address</p></figcaption></figure>
 
 ***
 
 ## Learning MAC Address
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>Source MAC Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption><p>Source MAC Address</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>Destination MAC Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption><p>Destination MAC Address</p></figcaption></figure>
 
 ## Filtering Frames
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Add PC-D to the MAC Table</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption><p>Add PC-D to the MAC Table</p></figcaption></figure>
 
 PC-D sends a frame back to PC-A and the switch learns PC-D’s MAC address.&#x20;
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>Transmission from PC-D to PC-A</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption><p>Transmission from PC-D to PC-A</p></figcaption></figure>
 
 Since the Switch MAC Address table contains PC-A’s MAC Address, it sends the frame out only port 1.
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption><p>Transmission from PC-A to PC-D</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (33).png" alt=""><figcaption><p>Transmission from PC-A to PC-D</p></figcaption></figure>
 
 PC-A sends another frame to PC-D. The switch’s table now contains PC-D’s MAC address, so it sends the frame out only port 4.
 
@@ -274,13 +274,13 @@ PC-A sends another frame to PC-D. The switch’s table now contains PC-D’s MAC
 
 ## Frame Forwarding Methods on Cisco Switches
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>Frame Forwarding Methods on Cisco Switches</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption><p>Frame Forwarding Methods on Cisco Switches</p></figcaption></figure>
 
 ***
 
 ## Destination on the Same Network
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption><p>Communicating on a Local Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption><p>Communicating on a Local Network</p></figcaption></figure>
 
 There are two primary addresses assigned to a device on an Ethernet LAN:
 
@@ -289,13 +289,13 @@ There are two primary addresses assigned to a device on an Ethernet LAN:
 
 ## Destination on a Remote Network
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption><p>Communicating to a Remote Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption><p>Communicating to a Remote Network</p></figcaption></figure>
 
 ***
 
 ## Introduction to ARP
 
-<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>ARP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption><p>ARP</p></figcaption></figure>
 
 ### ARP Functions
 

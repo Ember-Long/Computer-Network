@@ -26,7 +26,7 @@ Host sending function:
 
 In circuit swithing: end-end resources allocated to, reserved for “call” between source and destination
 
-<figure><img src=".gitbook/assets/image (27).png" alt="" width="375"><figcaption><p>Circuit Switching</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (41).png" alt="" width="375"><figcaption><p>Circuit Switching</p></figcaption></figure>
 
 * In diagram, each link has four circuits.
   * Call gets 2nd circuit in top link and 1st circuit in right link.
@@ -43,7 +43,7 @@ _Commonly used in traditional telephone networks_
 
 ### Packet-switching: Queueing Delay, Loss
 
-<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption><p>Queue Delay</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Queue Delay</p></figcaption></figure>
 
 **Packet queuing and loss**: if arrival rate (in bitpersecond - bps) to link exceeds transmission rate (bps) of link for a period of time
 
@@ -55,7 +55,7 @@ _Commonly used in traditional telephone networks_
 * Packets queue, wait for turn
 * Arrival rate to link (temporarily) exceeds output link capacity: packet loss
 
-<figure><img src=".gitbook/assets/image (29).png" alt="" width="563"><figcaption><p>Packet Loss &#x26; Delay</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (43).png" alt="" width="563"><figcaption><p>Packet Loss &#x26; Delay</p></figcaption></figure>
 
 **Transmission Delay** _(sender side)_**; Propagation Delay** _(during the propagation process)_**; Processing Delay** _(receiver side)_
 
