@@ -1,4 +1,4 @@
-# 💻 Overview
+# 📖 Overview
 
 ***
 
@@ -47,7 +47,7 @@ Internet: a proper noun -> must use the TCP/IP protocol
 
 ## Generic Communication Model
 
-<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption><p>Generic Communication Model</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption><p>Generic Communication Model</p></figcaption></figure>
 
 ***
 
@@ -57,7 +57,7 @@ Internet: a proper noun -> must use the TCP/IP protocol
 
 all communication activity in Internet governed by protocols
 
-<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption><p>A Human Protocol and a Computer Network Protocol</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption><p>A Human Protocol and a Computer Network Protocol</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption><p>Rule Establishment</p></figcaption></figure>
 
@@ -192,7 +192,7 @@ Network Address & Data Link Address
 
 ### Devices on the Same Network
 
-<figure><img src=".gitbook/assets/image (46).png" alt="" width="563"><figcaption><p>Device on the Same Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (48).png" alt="" width="563"><figcaption><p>Device on the Same Network</p></figcaption></figure>
 
 #### 1. Role of the Network Layer Addresses
 
@@ -208,7 +208,7 @@ When the sender and receiver of the IP packet are on the same network, the data 
 
 ### Devices on a Remote Network
 
-<figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption><p>Devices on a Remote Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption><p>Devices on a Remote Network</p></figcaption></figure>
 
 #### 1. Role of the Network Layer Addresses
 

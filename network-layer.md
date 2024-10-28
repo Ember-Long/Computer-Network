@@ -2,7 +2,7 @@
 
 ## The Network Layer
 
-<figure><img src=".gitbook/assets/image (73).png" alt=""><figcaption><p>The Exchange of Data</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (101).png" alt=""><figcaption><p>The Exchange of Data</p></figcaption></figure>
 
 The **network layer**, or **OSI Layer 3**, provides services to allow **end devices to exchange data across the network**.
 
@@ -40,9 +40,9 @@ Memory consisting of:
 
 ### Analogy: Taking a Trip
 
-<figure><img src=".gitbook/assets/image (76).png" alt="" width="176"><figcaption><p>Forwarding</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (104).png" alt="" width="176"><figcaption><p>Forwarding</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (77).png" alt="" width="234"><figcaption><p>Routing</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (105).png" alt="" width="234"><figcaption><p>Routing</p></figcaption></figure>
 
 * **Forwarding**: process of getting through single interchange
 * **Routing**: process of planning trip from source to destination
@@ -51,7 +51,7 @@ Memory consisting of:
 
 ## Encapsulating IP
 
-<figure><img src=".gitbook/assets/image (78).png" alt=""><figcaption><p>Encapsulating IP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (106).png" alt=""><figcaption><p>Encapsulating IP</p></figcaption></figure>
 
 IP encapsulates the transport layer segment by <mark style="background-color:blue;">adding an IP header</mark>. This header is used to <mark style="background-color:blue;">deliver the packet to the destination host</mark>. **The IP header remains the same from the time the packet leaves the source host until it arrives at the destination host**.
 
@@ -61,7 +61,7 @@ This means the transport layer segments can be readily packaged by IPv4 or IPv6 
 
 ## Charateristics of IP
 
-<figure><img src=".gitbook/assets/image (79).png" alt=""><figcaption><p>Characteristics of IP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (107).png" alt=""><figcaption><p>Characteristics of IP</p></figcaption></figure>
 
 IP provides only the functions that are necessary to deliver a packet from a source to a destination over an interconnected system of networks: this is important to be a protocol with a <mark style="background-color:blue;">low</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**overhead**</mark>.
 
@@ -71,11 +71,11 @@ The protocol was not designed to track and manage the flow of packets: these fun
 
 ## IP-Connectionless
 
-<figure><img src=".gitbook/assets/image (80).png" alt=""><figcaption><p>IP-Connectionless</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (108).png" alt=""><figcaption><p>IP-Connectionless</p></figcaption></figure>
 
 IP is connectionless, meaning that <mark style="background-color:blue;">no dedicated end-to-end connection is created before data is sent</mark>.
 
-<figure><img src=".gitbook/assets/image (81).png" alt=""><figcaption><p>Analogy of IP-Connectionless</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (109).png" alt=""><figcaption><p>Analogy of IP-Connectionless</p></figcaption></figure>
 
 Connectionless communication is conceptually similar to _sending a letter to someone without notifying the recipient in advance_.
 
@@ -85,7 +85,7 @@ However, with no pre-established end-to-end connection, <mark style="background-
 
 ## IP-Best Effort Delivery
 
-<figure><img src=".gitbook/assets/image (82).png" alt=""><figcaption><p>IP-Best Effort Delivery</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (110).png" alt=""><figcaption><p>IP-Best Effort Delivery</p></figcaption></figure>
 
 **The IP protocol does not guarantee that all packets that are delivered are, in fact, received.**
 
@@ -104,7 +104,7 @@ If out-of-order packets are delivered, or packets are missing, then <mark style=
 
 ## IP-Media Independent
 
-<figure><img src=".gitbook/assets/image (83).png" alt=""><figcaption><p>IP-Media Independent</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (111).png" alt=""><figcaption><p>IP-Media Independent</p></figcaption></figure>
 
 **IP operates independently of the media that carry the data at lower layers of the protocol stack.**
 
@@ -125,7 +125,7 @@ In some cases, an intermediate device, usually a router, must <mark style="backg
 * **Local**, per-router function&#x20;
 * Determines how <mark style="background-color:blue;">datagram arriving on router input port is forwarded to router output port</mark>
 
-<figure><img src=".gitbook/assets/image (91).png" alt=""><figcaption><p>Data Plane</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (119).png" alt=""><figcaption><p>Data Plane</p></figcaption></figure>
 
 ### Control Plane
 
@@ -142,19 +142,19 @@ In some cases, an intermediate device, usually a router, must <mark style="backg
 
 ### Per-Router Control Plane
 
-<figure><img src=".gitbook/assets/image (92).png" alt=""><figcaption><p>Per-Router Control Plane</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (120).png" alt=""><figcaption><p>Per-Router Control Plane</p></figcaption></figure>
 
 **Individual routing algorithm** components _in each and every router_ interact in the control plane
 
 ### Software-Defined Networking (SDN) Control Plane
 
-<figure><img src=".gitbook/assets/image (93).png" alt=""><figcaption><p>SDN Control Plane</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (121).png" alt=""><figcaption><p>SDN Control Plane</p></figcaption></figure>
 
 **Remote controller** <mark style="background-color:blue;">computes, installs forwarding tables in routers</mark>
 
 ## IPv4 Packet Header
 
-<figure><img src=".gitbook/assets/image (94).png" alt=""><figcaption><p>IPv4 Packet Header</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (122).png" alt=""><figcaption><p>IPv4 Packet Header</p></figcaption></figure>
 
 An IPv4 packet header consists of fields containing important information about the packet. These fields contain <mark style="background-color:blue;">binary numbers</mark> which are <mark style="background-color:blue;">examined by the Layer 3 process</mark>. The binary values of each field identify various settings of the IP packet.
 
@@ -188,7 +188,7 @@ What’s a subnet ?
 
 ## IPv4 Addresses, Network and Host Portions /Parts
 
-<figure><img src=".gitbook/assets/image (95).png" alt=""><figcaption><p>IPv4 Addresses, Network and Host Portions /Parts</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (123).png" alt=""><figcaption><p>IPv4 Addresses, Network and Host Portions /Parts</p></figcaption></figure>
 
 Within the 32-bit stream of an IPv4 address , a portion of the bits identify the network, and a portion of the bits identify the host.
 
@@ -200,11 +200,11 @@ If two hosts have the same bit-pattern in the specified network portion of the 3
 
 ## The Subnet Mask
 
-<figure><img src=".gitbook/assets/image (96).png" alt=""><figcaption><p>IP Address &#x26; Subnet Mask</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (124).png" alt=""><figcaption><p>IP Address &#x26; Subnet Mask</p></figcaption></figure>
 
 Comparing the IP Address and the Subnet Mask: The **1s** in the subnet mask identify the <mark style="background-color:blue;">network portion</mark> while the **0s** identify the <mark style="background-color:blue;">host portion</mark>.
 
-<figure><img src=".gitbook/assets/image (97).png" alt=""><figcaption><p>Logical AND Result</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (125).png" alt=""><figcaption><p>Logical AND Result</p></figcaption></figure>
 
 Use the Logical AND for the comparison of two bits: ANDing between the IP address and the subnet mask yields the network address.
 
@@ -224,7 +224,7 @@ The <mark style="background-color:blue;">actual process used to identify the net
 
 ## The Prefix Length
 
-<figure><img src=".gitbook/assets/image (98).png" alt=""><figcaption><p>Prefix Length</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (126).png" alt=""><figcaption><p>Prefix Length</p></figcaption></figure>
 
 * Shorthand method of identifying a subnet mask.&#x20;
 * It is the number of bits set to 1 in the subnet mask.&#x20;
@@ -234,7 +234,7 @@ The <mark style="background-color:blue;">actual process used to identify the net
 
 ## Network, Host, and Broadcast Addresses
 
-<figure><img src=".gitbook/assets/image (99).png" alt=""><figcaption><p>An Example</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (127).png" alt=""><figcaption><p>An Example</p></figcaption></figure>
 
 A host successfully connected to a network can communicate with other devices in one of three ways:
 
@@ -246,11 +246,11 @@ A host successfully connected to a network can communicate with other devices in
 
 ## Legacy Classful Addressing vs Classless Addressing
 
-<figure><img src=".gitbook/assets/image (84).png" alt=""><figcaption><p>Classful Addressing: Class A</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (112).png" alt=""><figcaption><p>Classful Addressing: Class A</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (85).png" alt=""><figcaption><p>Classful Addressing: Class B</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (113).png" alt=""><figcaption><p>Classful Addressing: Class B</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (86).png" alt=""><figcaption><p>Classful Addressing: Class C</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (114).png" alt=""><figcaption><p>Classful Addressing: Class C</p></figcaption></figure>
 
 In 1981, Internet IPv4 addresses were assigned using **classful addressing**. Customers were allocated a network address based on one of three classes, A, B, or C:
 
@@ -286,11 +286,11 @@ The private address blocks are:
 
 <div align="center">
 
-<figure><img src=".gitbook/assets/image (87).png" alt="" width="375"><figcaption><p>Broadcast Domain</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (115).png" alt="" width="375"><figcaption><p>Broadcast Domain</p></figcaption></figure>
 
 </div>
 
-<figure><img src=".gitbook/assets/image (88).png" alt="" width="375"><figcaption><p>Subnets</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (116).png" alt="" width="375"><figcaption><p>Subnets</p></figcaption></figure>
 
 <mark style="background-color:blue;">Each router interface</mark> connects a **broadcast domain** and <mark style="background-color:blue;">broadcasts are only propagated within its specific broadcast domain.</mark>
 
@@ -311,7 +311,7 @@ Note: The terms subnet and network are often used interchangeably. Most networks
 
 ## Classless Subnetting
 
-<figure><img src=".gitbook/assets/image (72).png" alt=""><figcaption><p>A Case of Classless Subnetting</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (100).png" alt=""><figcaption><p>A Case of Classless Subnetting</p></figcaption></figure>
 
 <mark style="background-color:blue;">Subnets can borrow bits from any host bit position to create other masks.</mark>
 
@@ -335,9 +335,9 @@ For each bit borrowed in the fourth octet, the number of subnetworks available i
 
 To understand how subnetting at a classless level can be useful, consider the following example.
 
-<figure><img src=".gitbook/assets/image (100).png" alt="" width="410"><figcaption><p>192.168.1.0/25 Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (128).png" alt="" width="410"><figcaption><p>192.168.1.0/25 Network</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (101).png" alt="" width="379"><figcaption><p>Dotted Decimal Address</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (129).png" alt="" width="379"><figcaption><p>Dotted Decimal Address</p></figcaption></figure>
 
 Consider the private network address _192.168.1.0/24 (Illustrated above)_ . The **first three octets are displayed in decimal**, while the **last octet is displayed in binary**. The reason for this is because we will be borrowing bits from the last octet to create subnets of the 192.168.1.0/24 network.
 
@@ -349,11 +349,11 @@ The two subnets are derived from changing the value of the bit borrowed to eithe
 
 Because one bit has been borrowed, the subnet mask for each subnet is 255.255.255.128 or /25.
 
-<figure><img src=".gitbook/assets/image (102).png" alt="" width="287"><figcaption><p>/25 Subnetting Topology</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (130).png" alt="" width="287"><figcaption><p>/25 Subnetting Topology</p></figcaption></figure>
 
 To see how a /25 subnet is applied in a network; consider the shown topology: R1 has two LAN segments attached to its GigabitEthernet interfaces. Each LAN is assigned one of the subnets.
 
-<figure><img src=".gitbook/assets/image (103).png" alt="" width="469"><figcaption><p>192.168.1.0/25 Subnet</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (131).png" alt="" width="469"><figcaption><p>192.168.1.0/25 Subnet</p></figcaption></figure>
 
 For the first subnet, _192.168.1.0/25_:
 
@@ -365,7 +365,7 @@ For the first subnet, _192.168.1.0/25_:
 
 **IPv4 Broadcast address** is 192.168.1.127 and contains all 1 bits in the host portion of the address.
 
-<figure><img src=".gitbook/assets/image (104).png" alt="" width="410"><figcaption><p>192.168.1.128/25</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (132).png" alt="" width="410"><figcaption><p>192.168.1.128/25</p></figcaption></figure>
 
 For the second subnet, 192.168.1.128/25: compare the Network address with that of subnet 192.168.1.0/25, what do you make of that?
 
@@ -375,11 +375,11 @@ Notice that the default gateway IPv4 address is the address configured on the G0
 
 ## Subnetting Formulas
 
-<figure><img src=".gitbook/assets/image (105).png" alt="" width="383"><figcaption><p>Calculate the Number of Subnets</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (133).png" alt="" width="383"><figcaption><p>Calculate the Number of Subnets</p></figcaption></figure>
 
 To calculate the number of subnets use the formula **2^n** where n refers to **bits borrowed**.
 
-<figure><img src=".gitbook/assets/image (106).png" alt="" width="458"><figcaption><p>Calculate the Number of Hosts</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (134).png" alt="" width="458"><figcaption><p>Calculate the Number of Hosts</p></figcaption></figure>
 
 To calculate the number of hosts use the formula **2^h-2** where h refers to the number of **remaining bits** in the host portion.
 
@@ -389,21 +389,21 @@ Good to take into account: <mark style="background-color:blue;">The last two bit
 
 ## Creating 4 Subnets
 
-<figure><img src=".gitbook/assets/image (107).png" alt="" width="392"><figcaption><p>Borrowing 2 Bits</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (135).png" alt="" width="392"><figcaption><p>Borrowing 2 Bits</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (108).png" alt="" width="429"><figcaption><p>192.168.1.0/26</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (136).png" alt="" width="429"><figcaption><p>192.168.1.0/26</p></figcaption></figure>
 
 Let us suppose an enterprise is using the private network address 192.168.1.0/24 range and requires three subnets. Borrowing a single bit only provided 2 subnets; therefore, another host bit must be borrowed  (as according to the **2^n** formula for two borrowed bits results in **2^2 = 4** subnets).
 
 To calculate the number of hosts, examine the last octet: after borrowing 2 bits for the subnet, there are 6 host bits remaining. Apply the host calculation formula **2^h - 2** to reveal that each subnet can support **62** host addresses.
 
-<figure><img src=".gitbook/assets/image (109).png" alt="" width="563"><figcaption><p>Address Ranges Nets 0-2</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (137).png" alt="" width="563"><figcaption><p>Address Ranges Nets 0-2</p></figcaption></figure>
 
 ***
 
 ## Creating Subnets with a /16 Prefix
 
-<figure><img src=".gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 In a situation requiring a larger number of subnets, an IPv4 network is required that has more hosts bits to borrow from. For example, the network address 172.16.0.0 has a default mask of <mark style="background-color:blue;">255.255.0.0, or /16</mark>. This address has 16 bits in the network portion and 16 bits in the host portion. The <mark style="background-color:blue;">16 bits in the host portion are available to borrow for creating subnets</mark>.
 
@@ -413,7 +413,7 @@ Although a complete memorization of the table is not required, it is suggested t
 
 ## Creating 100 Subnets with a /16 Network
 
-<figure><img src=".gitbook/assets/image (111).png" alt="" width="563"><figcaption><p>/26 Network</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (139).png" alt="" width="563"><figcaption><p>/26 Network</p></figcaption></figure>
 
 When borrowing bits from a /16 address, start borrowing bits in the third octet, going from left to right. Borrow a single bit at a time until the number of bits necessary to create <mark style="background-color:blue;">100 subnets</mark> is reached.
 
@@ -421,9 +421,9 @@ To satisfy the requirements of the enterprise, 7 bits (i.e., 2^7 = 128 subnets) 
 
 Recall that the subnet mask must change to reflect the borrowed bits. In this example, when 7 bits are borrowed, the mask is extended 7 bits into the third octet. In decimal, the mask is represented as <mark style="background-color:blue;">255.255.254.0, or a /23 prefix</mark>, because the third octet is 11111110 in binary and the fourth octet is 00000000 in binary.
 
-<figure><img src=".gitbook/assets/image (112).png" alt="" width="379"><figcaption><p>/23 Subnets</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (140).png" alt="" width="379"><figcaption><p>/23 Subnets</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (113).png" alt="" width="393"><figcaption><p>Address Range for 172.16.0.0/23 Subnet</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (141).png" alt="" width="393"><figcaption><p>Address Range for 172.16.0.0/23 Subnet</p></figcaption></figure>
 
 To calculate the number of hosts each subnet can support, examine the third and fourth octet. After borrowing 7 bits for the subnet, there is one host bit remaining in the third octet and 8 host bits remaining in the fourth octet for a total of 9 bits that were not borrowed.
 
@@ -433,7 +433,7 @@ Apply the host calculation: there are only <mark style="background-color:blue;">
 
 ## Default Gateway
 
-<figure><img src=".gitbook/assets/image (114).png" alt=""><figcaption><p>Host Default Gateway</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (142).png" alt=""><figcaption><p>Host Default Gateway</p></figcaption></figure>
 
 <mark style="background-color:blue;">Another role of the network layer is to direct packets between hosts.</mark> A **host** can send a packet to:
 
@@ -459,7 +459,7 @@ The default gateway is the network device that can <mark style="background-color
 
 ## Router Packet Forwarding Decision
 
-<figure><img src=".gitbook/assets/image (115).png" alt=""><figcaption><p>Directly Connected and Remote Network Routes</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (143).png" alt=""><figcaption><p>Directly Connected and Remote Network Routes</p></figcaption></figure>
 
 When a host sends a packet to another host, it will use its **routing table** to determine where to send the packet. <mark style="background-color:blue;">If the destination host is on a remote network, the packet is forwarded to the default gateway.</mark>
 
@@ -475,7 +475,7 @@ The **routing table** of a router can store information about:
 
 ## IPv4 Router Routing Table
 
-<figure><img src=".gitbook/assets/image (116).png" alt="" width="563"><figcaption><p>R1 IPv4 Routing Table</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (144).png" alt="" width="563"><figcaption><p>R1 IPv4 Routing Table</p></figcaption></figure>
 
 The **show ip route** command can be used to <mark style="background-color:blue;">display the router’s IPv4 routing table</mark>. In addition to providing routing information for directly-connected networks and remote networks, the routing table also has information on _how the route was learned, the trustworthiness and rating of the route, when the route was last updated, and which interface to use to reach the requested destination_.
 
@@ -485,7 +485,7 @@ When a packet arrives at the router interface, the router examines the packet he
 
 ## Verify Interface Configuration
 
-<figure><img src=".gitbook/assets/image (89).png" alt=""><figcaption><p>Verify Interface Configuraiton</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (117).png" alt=""><figcaption><p>Verify Interface Configuraiton</p></figcaption></figure>
 
 * **Show ip route** - Displays the contents of the IPv4 routing table stored in RAM.
 * **Show interfaces** -Displays statistics for all interfaces on the device.
@@ -531,7 +531,7 @@ Improvements that **IPv6** provides include:
 
 ## Transmition from IPv4 to IPv6
 
-<figure><img src=".gitbook/assets/image (90).png" alt=""><figcaption><p>IPv4 VS IPv6</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (118).png" alt=""><figcaption><p>IPv4 VS IPv6</p></figcaption></figure>
 
 * Not all routers can be upgraded simultaneously&#x20;
   * No “flag days”&#x20;
